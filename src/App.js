@@ -1,5 +1,14 @@
+import { Circulo } from "./Circulo";
+
 function App() {
-  return <p>Hola</p>;
+  const circulos = [1, 2, 3, 4, 5];
+  return (
+    <ul className="lista-circulos">
+      {circulos.map((circulo) => (
+        <Circulo key={circulo} />
+      ))}
+    </ul>
+  );
 }
 
 export default App;

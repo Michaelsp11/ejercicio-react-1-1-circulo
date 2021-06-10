@@ -1,1 +1,24 @@
-
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+ul,
+ul li {
+  margin: 0;
+  padding: 0;
+}
+.circulo {
+  list-style: none;
+  flex: 0 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.lista-circulos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
